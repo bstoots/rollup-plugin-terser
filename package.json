@@ -48,5 +48,12 @@
     "jest": "^26.2.2",
     "prettier": "^2.0.5",
     "rollup": "^2.23.1"
+  },
+  "bugs": {
+    "url": "https://github.com/bstoots/rollup-plugin-terser/issues"
+  },
+  "homepage": "https://github.com/bstoots/rollup-plugin-terser#readme",
+  "directories": {
+    "test": "test"
   }
 }
