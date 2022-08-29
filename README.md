@@ -1,16 +1,13 @@
-# rollup-plugin-terser [![Travis Build Status][travis-img]][travis]
-
-[travis-img]: https://travis-ci.org/TrySound/rollup-plugin-terser.svg
-[travis]: https://travis-ci.org/TrySound/rollup-plugin-terser
+# rollup-plugin-terser
 
 [Rollup](https://github.com/rollup/rollup) plugin to minify generated es bundle. Uses [terser](https://github.com/fabiosantoscode/terser) under the hood.
 
 ## Install
 
 ```sh
-yarn add rollup-plugin-terser --dev
+yarn add @bstoots/rollup-plugin-terser --dev
 # Or with npm:
-npm i rollup-plugin-terser --save-dev
+npm i @bstoots/rollup-plugin-terser --save-dev
 ```
 
 _Note: this package requires rollup@0.66 and higher (including rollup@2.0.0)_
@@ -19,7 +16,7 @@ _Note: this package requires rollup@0.66 and higher (including rollup@2.0.0)_
 
 ```js
 import { rollup } from "rollup";
-import { terser } from "rollup-plugin-terser";
+import { terser } from "@bstoots/rollup-plugin-terser";
 
 rollup({
   input: "main.js",
